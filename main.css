@@ -1,0 +1,133 @@
+#navMenu ul {
+padding:5px;
+border-radius:80px;
+}
+
+#navMenu li{
+position:relative;
+float:left;
+}
+#navMenu ul ul {
+position:absolute;
+visibility:hidden;
+float:left;
+width: 73%;
+display: block;
+}
+
+#navMenu ul li a{
+text-decoration:none;
+color:white;
+}
+
+#navMenu ul li:hover ul {
+visibility:visible;
+}
+
+
+
+.c1  {
+padding:3px;
+border-radius:80px;
+background-color:red;
+}
+
+.c2  {
+padding:3px;
+border-radius:80px;
+background-color:green;
+}
+
+.c3  {
+padding:3px;
+border-radius:80px;
+background-color:#848484;
+}
+
+.c4  {
+padding:3px;
+border-radius:80px;
+background-color:orange;
+}
+.c5  {
+padding:3px;
+border-radius:80px;
+background-color:red;
+}
+
+
+.pull-left{
+background-color:#2E9AFE;
+}
+
+#pra{
+padding:3px;
+border-radius:80px;
+background-color:red;
+}
+
+
+.pull-right{
+background-color:#04B486;
+
+}
+.neighborhood-guides{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;}
+    .neighborhood-guides h2 { 
+color:#393c3d;
+    font-size:24px;}
+    
+.neighborhood-guides p {
+font-size:15px;
+    margin-bottom:13px;}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('fiji.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
